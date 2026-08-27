@@ -3,17 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+ /* .seta-baixo {
+    width: 0;
+    height: 0;
+    border-left: 15x solid transparent;
+    border-right: 10x solid transparent;
+    border-top: 10x solid #0000;    
+ } */
 
-body {
+.body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:flex-start;
+    align-items: first baseline;
     max-height: 100vh;
     height: 100vh;
 }
 
+    .botao{
+        width: 90px;
+        height: 40px;
+        background-color: rgb(15, 0, 126);
+        color:aliceblue;
+        border: none;
+        border-radius: 6px;
+        font-size: 13px;
+         cursor: pointer;
+        /*display: inline-block;
+        justify-content: space-around;
+        align-items: center; */
+    }
+
+    .botao{
+        color: rgb(35, 224, 253);
+    }
+
+ 
+
+
 img {
-    width: 55vw;
-    height: 30vw;
+    width: 25vw;
+    height: 18vw;
+
 }
 
