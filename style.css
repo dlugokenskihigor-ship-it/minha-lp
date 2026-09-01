@@ -5,7 +5,7 @@
 }
 
 #navbar {
-background-color: red;
+background-color: rgb(18, 73, 107);
 display: flex;
 }
 
@@ -58,6 +58,44 @@ display: flex;
 img {
     width: 5vw;
     height: 5vw;
+}
+
+
+.RodaPe{
+    background-color: rgb(18, 73, 107);
+    list-style: none;
+    margin-top:auto ;
+    margin: 10px 20px;
+    padding: 0 20px;
+    box-sizing:border-box;
+    position:absolute;
+    bottom: 20px;
+    height: 20vh;
+    width: 215vh;
+}
+
+.primeiro li{
+    display: block;
+    position: relative;
+    margin: 10px 20px 
+    bottom: 10px;
+    width: 100vh;
+    right: 15px;    
+}
+
+.descricao{
+    display:contents;
+    margin:0;
+    position:0;
+}
+
+.info {
+    background-color: rebeccapurple;
+    padding: 0 20px
+    margin: 0 20px;
+    display:block;
+    position: absolute;
 
 }
+
 
