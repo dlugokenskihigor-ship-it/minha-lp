@@ -1,101 +1,95 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
 #navbar {
-background-color: rgb(18, 73, 107);
-display: flex;
-}
-
-
-
-
-
-.botoes{
-    display: flex;
-}    
-
-.botoes li {
-    list-style: none ;
-}
-
-.navbar{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.botoes{
-    display: flex;
-    justify-items:baseline;
-}
-
-.opcao{
-    width: 5px;
-}   
-
-    .button{
-        color: rgb(35, 224, 253);
-        position: relative;
-        display: inline-block;
-
-    }
-
-    .dropdown:hover .navbar {
-        display:flex;
-
-    }
-
-    .menu-opcoes ul{
-  color: #0eb9cd;
-  padding: 5px 4px;
-  text-decoration:underline;
-  display: block;
-}
-
-img {
-    width: 5vw;
-    height: 5vw;
-}
-
-
-.RodaPe{
     background-color: rgb(18, 73, 107);
+    padding: 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.botoes {
     list-style: none;
-    margin-top:auto ;
-    margin: 10px 20px;
-    padding: 0 20px;
-    box-sizing:border-box;
-    position:absolute;
-    bottom: 20px;
-    height: 20vh;
-    width: 215vh;
-}
-
-.primeiro li{
-    display: block;
-    position: relative;
-    margin: 10px 20px 
-    bottom: 10px;
-    width: 100vh;
-    right: 15px;    
-}
-
-.descricao{
-    display:contents;
-    margin:0;
-    position:0;
-}
-
-.info {
-    background-color: rebeccapurple;
-    padding: 0 20px
-    margin: 0 20px;
-    display:block;
-    position: absolute;
-
+    display: flex;
+    gap: 20px;
 }
 
 
+.botoes a {
+    color: white;
+    text-decoration: none;
+}
+
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+main {
+    padding: 30px;
+}
+
+/* 
+.inicio {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.inicio h1 {
+    margin-bottom: 15px;
+}
+
+
+.inicio p {
+    margin-bottom: 15px;
+} */
+
+
+.Rodape {
+    background-color: rgb(18, 73, 107);
+    color: rgb(255, 255, 255);
+    margin-top:457px;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.Rodape h3 {
+    margin-bottom: 10px;
+}
+
+
+.Rodape p {
+    margin-bottom: 10px;
+}
+
+
+.Rodape ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+
+.Rodape a {
+    color: white;
+    text-decoration: none;
+}
