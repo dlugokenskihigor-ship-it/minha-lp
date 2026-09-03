@@ -47,9 +47,9 @@ main {
     padding: 30px;
 }
 
-/* 
+
 .inicio {
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
 }
 
@@ -61,7 +61,22 @@ main {
 
 .inicio p {
     margin-bottom: 15px;
-} */
+}
+
+.bolinha{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius:50%;
+    margin-right:5px ;
+    
+    
+}
+
+
+.vermelha{background-color: #ff4d4d;}
+.amarelo{background-color: #ffdb58;}
+.verde{background-color: #2ecc71;}
 
 
 .Rodape {
@@ -92,4 +107,12 @@ main {
 .Rodape a {
     color: white;
     text-decoration: none;
+}
+
+.marca{
+    border-style:solid;
+    border: 1px  solid red;
+    border-width:2px;
+    display:right;
+    
 }
